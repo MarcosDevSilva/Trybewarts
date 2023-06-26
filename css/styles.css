@@ -1,0 +1,17 @@
+/* Using color palette from Hogwarts
+https://codepen.io/Jill-Lambert/pen/bwevpB */
+
+* {
+    top: 0;
+    margin: 0;  
+    font-family: Neucha, cursive;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    background-color: rgb(226, 226, 226);
+  }
