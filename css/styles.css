@@ -15,3 +15,15 @@ body {
   flex-direction: column;
   background-color: rgb(226, 226, 226);
 }
+
+header , footer {
+  background-color: rgb(50, 167, 145);
+  width: 100vw;
+  height: 8vh;
+  font-family: 'Macondo', cursive;
+}
+
+.header {
+  display: flex;
+  background-color: #32a791;
+}
