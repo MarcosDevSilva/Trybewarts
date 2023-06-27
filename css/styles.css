@@ -84,7 +84,7 @@ main {
 }
 
 #comments {
-  display: flex;  
+  display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -100,7 +100,7 @@ main {
 #counter {
   display: flex;
   text-align: center;
-  width: 30px;  
+  width: 30px;
 }
 
 .textarea {
@@ -113,7 +113,7 @@ main {
   margin-bottom: 0.5vh;
 }
 
-#check, #formButtons {
+#check , #formButtons {
   display: flex;
   width: 600px;
   align-items: center;
