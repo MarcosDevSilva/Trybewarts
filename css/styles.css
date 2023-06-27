@@ -61,13 +61,11 @@ header , footer {
   margin: 0.3vh;
 }
 
-#emailForm ,
-#passwordForm {
+#emailForm , #passwordForm {
   width: 150px;
 }
 
-#emailForm:hover ,
-#passwordForm:hover {
+#emailForm:hover , #passwordForm:hover {
   border-radius: 10px;
   border-style: ridge;
   box-shadow: 1px 1px 5px rgb(247, 151, 7);
