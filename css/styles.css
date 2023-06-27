@@ -27,3 +27,21 @@ header , footer {
   display: flex;
   background-color: #32a791;
 }
+.trybewarts-login {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 20vw;
+  height: 8vh;
+  /* margin: 0px 40px; */
+}
+
+.trybewarts-login button {
+  background-color: #f79707;
+  color: white;
+}
+
+.trybewarts-login button:hover {
+  box-shadow: 1px 1px 5px #f79707;
+  text-shadow: 0px 0px 1px #ffc759;
+}
