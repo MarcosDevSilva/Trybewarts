@@ -3,6 +3,9 @@ const emailForm = document.getElementById('emailForm');
 const passwordForm = document.getElementById('passwordForm');
 const charCount = document.getElementById('counter');
 const textComments = document.getElementById('textarea');
+const btnSubmit = document.getElementById('submit-btn');
+//const btnOff = document.getElementById("submit-btn").disabled = true;
+const checkBox = document.getElementById('agreement');
 
 btnLogin.addEventListener('click', (e) => {
   e.preventDefault();
@@ -21,3 +24,15 @@ textComments.addEventListener('keyup', () => {
     charCount.style.color = 'black';
   }
 });
+
+checkBox.addEventListener('change', () =>{
+  console.log('test', checkBox.checked)
+  //evento.preventDefault()
+  if(checkBox.checked === false) {
+    btnSubmit.disabled =true;
+      //document.getElementById("submit-btn").disabled = true;
+  }else{
+    btnSubmit.disabled = false;
+      //document.getElementById("submit-btn").disabled = false; 
+}
+})
