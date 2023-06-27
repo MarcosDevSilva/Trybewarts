@@ -46,17 +46,17 @@ header , footer {
   width: 60vw;
   font-size: 54px;
   color: rgb(185, 161, 73);
-  text-shadow: 2px 2px 5px black,
-              -2px -2px 5px rgb(247, 151, 7);
+  text-shadow: 2px 2px 5px black, 
+    -2px -2px 5px rgb(247, 151, 7);
   font-family: Inknut Antiqua, serif;
   height: 7vh;
 }
 
-#emailForm ,
-#passwordForm ,
-#input-name ,
-#input-lastname ,
-#input-email ,
+#emailForm , 
+#passwordForm , 
+#input-name , 
+#input-lastname , 
+#input-email , 
 #house {
   border-radius: 10px;
   border-style: inset;
