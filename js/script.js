@@ -4,7 +4,6 @@ const passwordForm = document.getElementById('passwordForm');
 const charCount = document.getElementById('counter');
 const textComments = document.getElementById('textarea');
 const btnSubmit = document.getElementById('submit-btn');
-//const btnOff = document.getElementById("submit-btn").disabled = true;
 const checkBox = document.getElementById('agreement');
 
 btnLogin.addEventListener('click', (e) => {
@@ -25,14 +24,10 @@ textComments.addEventListener('keyup', () => {
   }
 });
 
-checkBox.addEventListener('change', () =>{
-  console.log('test', checkBox.checked)
-  //evento.preventDefault()
+checkBox.addEventListener('change', () => {
   if(checkBox.checked === false) {
     btnSubmit.disabled =true;
-      //document.getElementById("submit-btn").disabled = true;
-  }else{
+  } else {
     btnSubmit.disabled = false;
-      //document.getElementById("submit-btn").disabled = false; 
 }
-})
+});
