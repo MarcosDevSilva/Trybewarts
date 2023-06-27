@@ -15,7 +15,7 @@ btnLogin.addEventListener('click', (e) => {
 
 textComments.addEventListener('keyup', () => {
   charCount.innerText = (500 - textComments.value.length);
-  if (charCount.innerText <= parseInt(20)) {
+  if (parseInt(charCount.innerText) <= 20) {
     charCount.style.color = 'red';
   } else {
     charCount.style.color = 'black';
