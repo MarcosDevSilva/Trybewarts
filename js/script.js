@@ -8,18 +8,16 @@ btnLogin.addEventListener('click', (e) => {
   e.preventDefault();
   if (emailForm.value === 'tryber@teste.com' && passwordForm.value === '123456') {
     alert('Olá, Tryber!');
-  }
-  else {
+  } else {
     alert('Email ou senha inválidos.');
   }
 });
 
 textComments.addEventListener('keyup', () => {
-  charCount.innerText = eval(500 - textComments.value.length);
+  charCount.innerText = (500 - textComments.value.length);
   if (charCount.innerText <= parseInt(20)) {
     charCount.style.color = 'red';
-  }
-  else {
+  } else {
     charCount.style.color = 'black';
   }
 });
