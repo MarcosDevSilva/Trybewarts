@@ -25,9 +25,9 @@ textComments.addEventListener('keyup', () => {
 });
 
 checkBox.addEventListener('change', () => {
-  if(checkBox.checked === false) {
-    btnSubmit.disabled =true;
+  if (checkBox.checked === false) {
+    btnSubmit.disabled = true;
   } else {
     btnSubmit.disabled = false;
-}
+  }
 });
