@@ -82,3 +82,44 @@ main {
   border: 6px groove rgb(247, 151, 7);
   box-shadow: 2px 2px 10px rgb(247, 151, 7);
 }
+
+#comments {
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 650px;
+}
+
+#comments textarea {
+  display: flex;
+  width: 595px;
+  resize: none;
+}
+
+#counter {
+  display: flex;
+  text-align: center;
+  width: 30px;  
+}
+
+.textarea {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 600px;
+  margin-left: 0.5vw;
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
+}
+
+#check, #formButtons {
+  display: flex;
+  width: 600px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#check label {
+  margin-left: 1vh;
+}
