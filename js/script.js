@@ -10,8 +10,7 @@ btnLogin.addEventListener('click', (e) => {
   e.preventDefault();
   if (emailForm.value === 'tryber@teste.com' && passwordForm.value === '123456') {
     alert('Olá, Tryber!');
-  }
-  else {
+  } else {
     alert('Email ou senha inválidos.');
   }
 });
@@ -19,18 +18,16 @@ btnLogin.addEventListener('click', (e) => {
 agreement.addEventListener('click', () => {
   if (agreement.checked) {
     submitBtn.disabled = false;
-  }
-  else {
+  } else {
     submitBtn.disabled = true;
   }
 });
 
 textComments.addEventListener('keyup', () => {
-  charCount.innerText = eval(500 - textComments.value.length);
-  if (charCount.innerText <= parseInt(20)) {
+  charCount.innerText = (500 - textComments.value.length);
+  if (Number(charCount.innerText) <= 20) {
     charCount.style.color = 'red';
-  }
-  else {
+  } else {
     charCount.style.color = 'black';
   }
 });
