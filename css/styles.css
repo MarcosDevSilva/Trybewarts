@@ -16,7 +16,8 @@ body {
   background-color: rgb(226, 226, 226);
 }
 
-header , footer {
+header,
+footer {
   background-color: rgb(50, 167, 145);
   width: 100vw;
   height: 8vh;
@@ -51,7 +52,12 @@ header , footer {
   height: 7vh;
 }
 
-#emailForm , #passwordForm , #input-name , #input-lastname , #input-email , #house {
+#emailForm,
+#passwordForm,
+#input-name,
+#input-lastname,
+#input-email,
+#house {
   border-radius: 10px;
   border-style: inset;
   text-align: center;
@@ -61,11 +67,13 @@ header , footer {
   margin: 0.3vh;
 }
 
-#emailForm , #passwordForm {
+#emailForm,
+#passwordForm {
   width: 150px;
 }
 
-#emailForm:hover , #passwordForm:hover {
+#emailForm:hover,
+#passwordForm:hover {
   border-radius: 10px;
   border-style: ridge;
   box-shadow: 1px 1px 5px rgb(247, 151, 7);
@@ -150,7 +158,8 @@ hr {
   justify-content: center;
 }
 
-#family , #learn {
+#family,
+#learn {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -180,18 +189,24 @@ hr {
 }
 
 #learnOptions input {
-  margin: 0;
+  margin: 5px;
 }
 
 #learnOptions label {
-  margin: 0 20px 0 3px;
+  display: flex;
+  width: 80px;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 #ratings {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width: 600px;
+}
+
+#ratings input {
+  margin-left: 15px;
 }
 
 #comments {
@@ -224,7 +239,8 @@ hr {
   margin-bottom: 0.5vh;
 }
 
-#check , #formButtons {
+#check,
+#formButtons {
   display: flex;
   width: 600px;
   align-items: center;
@@ -235,7 +251,9 @@ hr {
   margin-left: 1vh;
 }
 
-#input-name , #input-lastname , #input-email {
+#input-name,
+#input-lastname,
+#input-email {
   width: 300px;
   height: 25px;
 }
